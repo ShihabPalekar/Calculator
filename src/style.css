@@ -6,7 +6,7 @@ body {
 
 .calcGridContainer {
     border: 2px solid #e9e8e8;
-    padding-top: 3.705%;
+    /* padding-top: 3.705%; */
     padding-bottom: 0.45%;
     padding-left: 0.45%;
     padding-right: 0.45%;
@@ -35,4 +35,12 @@ button {
 .eqBtn {
     grid-row: 5 ;
     grid-column: 1 / span 3;
+}
+
+.calcDisplay {
+    height: 53px;
+    text-align: end;
+    padding-right: 10px;
+    padding-top: 5px;
+    font-size: large;
 }
