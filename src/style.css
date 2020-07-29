@@ -1,7 +1,5 @@
 body {
-    background-color: #222831;
-    color: whitesmoke
-    
+    background-color: #222831;    
 }
 
 .calcGridContainer {
@@ -12,7 +10,7 @@ body {
     padding-right: 0.45%;
     position: absolute;
     top: 44%;
-    left: 48.25%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 
@@ -22,7 +20,7 @@ button {
     margin: 0.07em;
 }
 
-.main-grid{
+.buttons-grid{
     display: grid;
     grid-template-columns: repeat(4, 1.5fr);
 }
@@ -43,4 +41,41 @@ button {
     padding-right: 10px;
     padding-top: 5px;
     font-size: large;
+}
+
+@media all and (max-width: 501px){
+
+    button {
+        height: 3rem;
+        width: 3rem;
+        /* font-weight: 545; */
+    }
+
+    .addBtn{
+        height: 6.2rem;
+    }
+
+    .eqBtn{
+        width: 9.3rem;
+    }
+
+    button{
+        margin: 0.10rem;
+    }
+
+    .buttons-grid{
+        padding: 0.10rem;
+    }
+
+    .clrBtn{
+        font-size: x-small;
+    }
+
+}
+
+@media all and (max-width: 380px){
+    button{
+        font-weight: bold;
+        color: rgba(0, 0, 0, 0.815);
+    }
 }

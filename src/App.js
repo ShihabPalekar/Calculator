@@ -79,7 +79,7 @@ class App extends React.Component{
                 <div className="calcDisplay">
                     <p>{this.state.display}</p>
                 </div>
-                <div className="main-grid">
+                <div className="buttons-grid">
                     <button onClick={this.numClick} value="7"> 7 </button>
                     <button onClick={this.numClick} value="8"> 8 </button>
                     <button onClick={this.numClick} value="9"> 9 </button>
